@@ -327,12 +327,12 @@ h6 {
 #h6a {
   font-size: 2.5vh;
   padding-left: 3vw;
-  color: #4F3B38;
 }
 
 #h6b {
   padding-left: 18vw;
-
+  color: #4F3B38;
+  font-weight: 600;
 }
 
 p {
@@ -366,19 +366,19 @@ p {
   font-size: 2.6vh;
   font-family: var(--serif);
   font-weight: 200;
-  line-height: 2;
+  line-height: 2.2;
   font-style: italic;
 }
 
 #pd {
   padding-top: 5vh;
-  line-height: 2.2;
+  line-height: 1.9;
   font-family: var(--serif);
   font-style: italic;
   font-size: 2.2vh;
 }
 
-ul, .ulsml, .menu, .menui {
+ul, .ulsml, .menu, .menui, .menuprice {
   list-style-type: circle;
   line-height: 1.9;
   font-size: 2.7vh;
@@ -393,16 +393,25 @@ ul, .ulsml, .menu, .menui {
   font-size: 2.5vh;
 }
 
-.menu {
-  padding-top: 4vh;
+.menu, .menuprice {
+  padding-top: 2vh;
   padding-left: 20vw;
   text-transform: capitalize;
 }
 
-.menui {
+.menui, .menupricei {
   padding-left: 2vw;
-  font-size: 2.8vh;
+  font-size: 2.6vh;
   line-height: 2.4;
+}
+
+.menuprice {
+  padding-top: 10.5vh;
+  padding-left: 8vw;
+}
+
+.menupricei {
+  list-style-type: none;
 }
 
 /* THIS IS THE START OF THE FUCKED UP DOC */
