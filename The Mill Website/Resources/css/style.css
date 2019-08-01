@@ -309,11 +309,29 @@ h5, h6 {
   padding-top: 18vh;
 }
 
-#h5b {
+#h5b, #h5c, #h5e {
   font-size: 7vh;
   font-family: var(--serif);
   color: #4F3B38;
   padding-top: 4vh;
+}
+
+#h5c {
+  color: #F0E3C1;
+}
+
+#h5d {
+  color: #7879A1;
+  font-size: 5vh;
+  padding-top: 5vh;
+}
+
+#h5e {
+  color: #E7EBE3;
+  font-size: 5vh;
+  padding-top: 5vh;
+  padding-bottom: 2vh;
+  font-weight: lighter;
 }
 
 h6 {
@@ -333,6 +351,29 @@ h6 {
   padding-left: 18vw;
   color: #4F3B38;
   font-weight: 600;
+}
+
+#h6c, #h6e {
+  font-size: 3.2vh;
+  padding-left: 9vw;
+  color: #F0E3C1;
+  font-weight: 600;
+}
+
+#h6d, #h6f {
+  font-size: 2.6vh;
+  padding-left: 10vw;
+  color: #F0E3C1;
+  font-weight: 600;
+  padding-top: 3vh;
+}
+
+#h6e {
+  color: #4F3B38;
+}
+
+#h6f {
+  color: #4F3B38;
 }
 
 p {
@@ -378,6 +419,19 @@ p {
   font-size: 2.2vh;
 }
 
+#pe {
+  padding-top: 4vh;
+  padding-left: 11vw;
+  padding-right: 5vw;
+  color: #E7EBE3;
+}
+
+#pf {
+  padding-top: 4vh;
+  padding-left: 11vw;
+  padding-right: 5vw;
+}
+
 ul, .ulsml, .menu, .menui, .menuprice {
   list-style-type: circle;
   line-height: 1.9;
@@ -412,6 +466,35 @@ ul, .ulsml, .menu, .menui, .menuprice {
 
 .menupricei {
   list-style-type: none;
+}
+
+.ul_rec {
+  padding-left: 12.3vw;
+}
+
+.li_rec,.oli_rec {
+  line-height: 1.6;
+  font-size: 2vh;
+  padding-top: 1vh;
+  list-style-type: disc;
+  color: #E7EBE3;
+  font-family: var(--sans);
+  font-weight: 400;
+}
+
+.oli_rec {
+  padding-top: 3vh;
+  padding-left: 1vw;
+  padding-right: 5vw;
+  list-style-type: decimal;
+}
+
+.ul_hrs {
+  padding-left: 8vw;
+}
+
+.ul_days {
+  padding-left: 32vw;
 }
 
 /* THIS IS THE START OF THE FUCKED UP DOC */
@@ -957,7 +1040,7 @@ input[name="email"] {
 }
 
 .cont_radio input:checked ~ .radiobtn {
-  background-color: #07284
+  background-color: #07284;
   style-type: none;
   padding-top: 2vh;
   font-size: 2.75vh;
