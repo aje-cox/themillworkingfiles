@@ -223,19 +223,410 @@ h4 {
   margin: auto;
 }
 
-/*.logoline {
-  height: 350px;
-  width: 350px;
-  border-radius: 50%;
-  background-color: #F0E3C1;
-  border: 7px solid #07284C;
+/* --SVG ANIMATION!-- */
+
+svg {
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
   margin: auto;
-}*/
+  transform-origin: 50% 50%;
+  transform: scale(.4);
+}
+
+.cls-1 {
+  fill: #f0e3c1;
+  animation: 4s background ease-out;
+}
+
+.cls-2, .cls-2r, .cls-4, .cls-5 {
+  fill: none;
+  stroke:#07284c;
+  stroke-miterlimit: 10;
+}
+
+.cls-2 {
+  stroke-width: 3px;
+  stroke-dasharray: 790;
+  transform-origin: 50% 50%;
+  transform: rotate(90deg);
+  animation: 6s outline ease-in;
+}
+
+.cls-2r {
+  stroke-width: 3px;
+  stroke-dasharray: 790;
+  transform-origin: 50% 50%;
+  transform: rotate(90deg);
+  animation: 6s outlineR ease-in;
+}
+
+.cls-4, .cls-5 {
+  transform-origin: 50% 50%;
+  animation: 6s dots;
+}
+
+.cls-3, .cls-3a1, .cls-3a2, .cls-3b, .cls-3br, .cls-3c, .cls-6, .cls-8, .cls-9, .cls-14, .cls-15 {
+  fill: #07284c;
+}
+
+.cls-3a1, .cls-3a2 {
+  stroke-dasharray: 100;
+  stroke: #07284c;
+  stroke-width: .3;
+  transform-origin: 50% 50%;
+
+}
+
+.cls-3a1 {
+  animation: 6s wheat ease-in;
+}
+
+.cls-3a2 {
+  animation: 6s wheatside ease-in;
+}
+
+.cls-3b, .cls-3br {
+  stroke: #07284c;
+  stroke-width: .5;
+  stroke-dasharray: 150;
+  //fill-opacity: 0;
+  animation: 6.2s coffee ease-in;
+}
+
+.cls-3br {
+  stroke-width: .7;
+}
+
+.cls-3c {
+  transform-origin: 50% 50%;
+  animation: 6.2s rays ease-in-out;
+}
+
+.cls-4, .cls-5 {
+  stroke-linecap: round;
+  stroke-width: 4px;
+}
+
+.cls-5 {
+  stroke-dasharray: 1.02 20.44;
+}
+
+text {
+  fill: red;
+  animation: 5s text;
+}
+
+.cls-6 {
+  font-size: 46.06px;
+  font-family: Constantia;
+  letter-spacing: 0.25em;
+  transform-origin: 50% 50%;
+  stroke: #07284c;
+  stroke-width: 1.5;
+  /* animation: 5s text;
+  fill: red; */
+}
+
+.cls-7 {
+  letter-spacing: 0.24em;
+  /* fill: red; */
+}
+
+.cls-8 {
+  font-size: 9.21px;
+  font-family: Montserrat-Medium, Montserrat Medium;
+  font-weight: 500;
+  letter-spacing: 0.5em;
+  transform-origin: 50% 50%;
+  stroke: #07284c;
+  stroke-width: .2;
+}
+
+.cls-9 {
+  font-size: 12.12px;
+  font-family: Montserrat-Regular, Montserrat;
+  transform-origin: 50% 50%;
+  stroke: #07284c;
+  stroke-width: .2;
+  }
+
+.cls-10 {
+  letter-spacing: -0.01em;
+}
+
+.cls-11 {
+  letter-spacing: -0.01em;
+}
+
+.cls-12 {
+  letter-spacing: -0.02em;
+}
+
+.cls-13a {
+  fill: #f0e3c1;
+  stroke: #f0e3c1;
+  stroke-width: 1;
+  animation: 6s bowl-light;
+}
+
+.cls-13b {
+  fill: #f0e3c1;
+  animation: 6s bowl-light;
+}
+
+.cls-14 {
+  stroke: #07284c;
+  stroke-width: 1;
+  transform-origin: 50% 50%;
+  stroke-dasharray: 500;
+  animation: 6s bowl-line;
+}
+
+.cls-15 {
+  stroke: #07284c;
+  stroke-width: 1;
+  transform-origin: 50% 50%;
+  animation: 6s bowl-top;
+}
+
+@keyframes background {
+  0%{
+    transform: translate(0, 300px);
+    opacity: 0;
+  }
+  47%{
+    opacity: 0;
+  }
+  65%{
+    transform: translate(0,-3px);
+  }
+  85%{
+    transform: translate(0,3px);
+  }
+  100%{
+    transform: translate(0,0px);
+    opacity: 1;
+  }
+}
+
+@keyframes outline {
+  0%{
+    stroke-dashoffset: -790;
+    opacity: 0;
+  }
+  25%{
+    stroke-dashoffset: 790;
+    opacity: 0;
+  }
+  75%{
+    opacity: 1;
+  }
+  100%{
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes outlineR {
+  0%{
+    stroke-dashoffset: -790;
+    opacity: 0;
+  }
+  25%{
+    stroke-dashoffset: -790;
+    opacity: 0;
+  }
+  75%{
+    opacity: 1;
+  }
+  100%{
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dots {
+  0%{
+    transform: scale(0);
+    opacity: 0;
+  }
+  50%{
+    transform: scale(0);
+    opacity: 0;
+  }
+  60%{
+    opacity: 0;
+  }
+  75%{
+    transform: scale(1);
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes wheat {
+  0%{
+    stroke-dashoffset: 100;
+    fill-opacity: 0;
+  }
+  35%{
+
+    stroke-dashoffset: 100;
+    fill-opacity: 0;
+  }
+  55%{
+    fill-opacity: 0;
+  }
+  80%{
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+  }
+}
+
+@keyframes wheatside {
+  0%{
+    stroke-dashoffset: 100;
+    fill-opacity: 0;
+  }
+  40%{
+    stroke-dashoffset: 100;
+    fill-opacity: 0;
+  }
+  60%{
+    fill-opacity: 0;
+  }
+  100%{
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+  }
+}
+
+@keyframes coffee {
+  0%{
+    stroke-dashoffset: 150;
+    fill-opacity: 0;
+  }
+  40%{
+    stroke-dashoffset: 150;
+    fill-opacity: 0;
+  }
+  60%{
+    fill-opacity: 0;
+  }
+  100%{
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+  }
+}
+
+@keyframes rays {
+  0%{
+    transform: translate(0, -300px);
+    transform: scale(0);
+    opacity: 0;
+  }
+  45%{
+    transform: scale(0);
+    opacity: 0;
+    transform: translate(0, -300px);
+  }
+  65%{
+    opacity: 0;
+  }
+  75%{
+    transform: scale(1);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0,0);
+  }
+}
+
+@keyframes text {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes bowl-line {
+  0%{
+    transform: translate(0, 200px);
+    stroke-dashoffset: 500;
+    fill-opacity: 0;
+    stroke-opacity: 0;
+  }
+  35%{
+
+    stroke-dashoffset: 500;
+    fill-opacity: 0;
+  }
+  55%{
+    fill-opacity: 0;
+    transform: translate(0, -1.5px);
+  }
+  75% {
+    transform: translate(0, 1.5px);
+    stroke-opacity: 1;
+  }
+  100%{
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+     transform: translate(0, 0px);
+  }
+}
+
+@keyframes bowl-top {
+  0%{
+    transform: translate(0, 200px);
+    opacity: 0;
+  }
+  35%{
+    opacity: 0;
+  }
+  55%{
+    transform: translate(0, -1.5px);
+  }
+  75% {
+    transform: translate(0, 1.5px);
+    opacity: 1;
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0, 0px);
+  }
+}
+
+@keyframes bowl-light {
+  0%{
+    transform: translate(0, 200px);
+    opacity: 0;
+  }
+  35%{
+    opacity: 0;
+  }
+  55%{
+    transform: translate(0, -1.5px);
+     opacity: 1;
+  }
+  75% {
+    transform: translate(0, 1.5px);
+    opacity: 1;
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0, 0px);
+  }
+}
+
+/* --/SVG ANIMATION!-- */
 
 h2, h3 {
   font-size: 12vh;
