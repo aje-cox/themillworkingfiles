@@ -165,6 +165,7 @@ h4 {
   height: 86vh;
   background-color: #4F3B38;
   position: relative;
+  overflow: hidden;
 }
 
 .landingabout {
@@ -192,6 +193,19 @@ h4 {
   width: 100%;
   height: 7vh;
 }
+
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+
 /*
 .down_arrow  {
   width: 2vw;
