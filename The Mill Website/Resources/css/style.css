@@ -114,11 +114,12 @@ html, body {
 
 h1 {
   color: #07284C;
-  font-size: 30px;
+  font-size: 3vh;
+  /* fontsize was 30px or 3.4vh for bolder */
   text-align: center;
   font-family: var(--serif);
   text-transform: uppercase;
-  padding: 0.5em;
+  padding: 1.9vh;
   margin: 0px;
 }
 
@@ -126,6 +127,7 @@ h1 {
   color: #F0E3C1;
   font-size: 90px;
   padding-top: 29vh;
+  text-transform: uppercase;
 }
 
 #h1b {
