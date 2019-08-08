@@ -224,7 +224,7 @@ h4 {
 
 .landingcafe {
   background-color: #4F3B38;
-  background-image: url('');
+  background-image: url('../css/img/millcoffee (4 of 5).jpg');
   background-size: cover;
 }
 
@@ -1411,7 +1411,7 @@ ul, .ulsml, .menu, .menui, .menuprice {
   float: left;
   padding: 15px;
   background-image: url('../css/img/mill-muesli1.jpg');
-  background-size: 150%;
+  background-size: 155%;
   overflow: hidden;
   z-index: 1;
   background-position: center;
@@ -1468,8 +1468,10 @@ background-color: #7879A1;
   height: 52vw;
   top: -22vw;
   left: -15px;
-  background: rgba(240, 227, 193, 0.5);
+  background: rgba(240, 227, 193, 0.65);
   z-index: 3;
+  transition: background 1s;
+  -webkit-transition: background 1s;
 }
 
 .boxoverlay2 {
@@ -1478,8 +1480,10 @@ background-color: #7879A1;
   height: 52vw;
   top: -22vw;
   left: -15px;
-  background: rgba(48, 36, 34, 0.7);
+  background: rgba(48, 36, 34, 0.8);
   z-index: 4;
+  transition: background 1s;
+  -webkit-transition: background 1s;
 }
 
 .tostores_wfbox {
@@ -1494,7 +1498,15 @@ background-color: #7879A1;
 }
 
 .tostores_wholefoods:hover {
-  background-size: 175%;
+  background-size: 180%;
+}
+
+.boxoverlay1:hover {
+  background: rgba(240, 227, 193, 0.9);
+}
+
+.boxoverlay2:hover {
+  background: rgba(48, 36, 34, 0.95);
 }
 
 .tostores_cfbox {
@@ -1516,6 +1528,15 @@ background-color: #7879A1;
   padding: 15px;
   overflow: hidden;
   z-index: 2;
+  background-image: url('../css/img/millcoffee (2 of 5).jpg');
+  background-size: 155%;
+  background-position: center;
+  transition: background-size 1s;
+  -webkit-transition: background-size 1s;
+}
+
+.tostores_cafe:hover {
+  background-size: 180%;
 }
 
 hr {
