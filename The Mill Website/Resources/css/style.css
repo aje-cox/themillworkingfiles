@@ -185,7 +185,7 @@ h4 {
 }
 
 #lo_about {
-  background: rgba(120, 121, 161, 0.6);
+  background: rgba(120, 121, 161, 0.8);
 }
 
 #lo_cafe {
@@ -209,8 +209,9 @@ h4 {
 
 .landingabout {
   background-color: #7879A1;
-  background-image: url('');
+  background-image: url('../css/img/millstorefront2.jpg');
   background-size: cover;
+  background-position: right;
 }
 
 .landingwholefoods {
