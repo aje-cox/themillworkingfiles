@@ -215,7 +215,7 @@ h4 {
 
 .landingwholefoods {
   background-color: #F0E3C1;
-  background-image: url('../css/img/mill-muesli1.jpg');
+  background-image: url('../css/img/mill-muesliwebop.jpg');
   background-size: cover;
   /* background-attachment: fixed;
   background-position: center;
@@ -224,13 +224,13 @@ h4 {
 
 .landingcafe {
   background-color: #4F3B38;
-  background-image: url('../css/img/millcoffee (4 of 5).jpg');
+  background-image: url('../css/img/millcoffee4webop.jpg');
   background-size: cover;
 }
 
 .landingblog {
   background-color: #07284C;
-  background-image: url('../css/img/mill-flatlay1.jpg');
+  background-image: url('../css/img/mill-flatlay1webop.jpg');
   background-size: cover;
 }
 
@@ -1410,7 +1410,7 @@ ul, .ulsml, .menu, .menui, .menuprice {
   height: inherit;
   float: left;
   padding: 15px;
-  background-image: url('../css/img/mill-muesli1.jpg');
+  background-image: url('../css/img/mill-muesliwebop.jpg');
   background-size: 155%;
   overflow: hidden;
   z-index: 1;
@@ -1528,7 +1528,7 @@ background-color: #7879A1;
   padding: 15px;
   overflow: hidden;
   z-index: 2;
-  background-image: url('../css/img/millcoffee (2 of 5).jpg');
+  background-image: url('../css/img/millcoffee2webop.jpg');
   background-size: 155%;
   background-position: center;
   transition: background-size 1s;
