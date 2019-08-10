@@ -129,7 +129,7 @@ h1 {
   position: inherit;
 }
 
-#h1a, #h1b, #h1c, #h1d {
+#h1a, #h1b, #h1c, #h1d, #h1e {
   color: #F0E3C1;
   font-size: 11.5vh;
   /* fontsize was 90px or 11.5vh */
@@ -148,6 +148,12 @@ h1 {
 
 #h1d {
   color: #4F3B38;
+}
+
+#h1e {
+  color: #07284C;
+  padding-top: 20vh;
+  font-size: 12vh;
 }
 
 h4 {
@@ -200,7 +206,7 @@ h4 {
   background: rgba(240, 227, 193, 0.6);
 }
 
-.landing, .landingabout, .landingwholefoods, .landingcafe, .landingblog, .landingcontact {
+.landing, .landingabout, .landingwholefoods, .landingcafe, .landingblog, .landingcontact, .landingstorecat {
   height: 86vh;
   background-color: #4F3B38;
   position: relative;
@@ -236,6 +242,13 @@ h4 {
 }
 
 .landingcontact {
+  background-color: #F0E3C1;
+  background-image: url('');
+  background-size: cover;
+}
+
+.landingstorecat {
+  height: 61vh;
   background-color: #F0E3C1;
   background-image: url('');
   background-size: cover;
@@ -975,6 +988,13 @@ p {
   padding-right: 5vw;
 }
 
+#pg {
+  text-align: center;
+  padding-top: 5vh;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 ul, .ulsml, .menu, .menui, .menuprice {
   list-style-type: circle;
   line-height: 1.9;
@@ -1093,12 +1113,12 @@ ul, .ulsml, .menu, .menui, .menuprice {
 }
 
 #psec_introcat {
-  height: 40vh;
+  height: 25vh;
 }
 
 #psec_products {
-  height: 160vh;
-  background-color: lightblue;
+  height: 195vh;
+  background-color: #E7EBE3;
 }
 
 .p_title {
@@ -1135,7 +1155,8 @@ ul, .ulsml, .menu, .menui, .menuprice {
 }
 
 #introcat {
-  height: 40vh;
+  height: 25vh;
+  /* height was 40vh */
 }
 
 .p_stats {
