@@ -21,8 +21,19 @@ html, body {
   overflow-x: hidden;
 }
 
-a {
+.ul_storecats a {
   text-decoration: none;
+  color: #07284c;
+  transition: 500ms;
+}
+
+.ul_storecats a:hover, ul_storecats a:focus {
+  color: #7879A1;
+}
+
+.ul_storecats .current {
+  font-weight: 800;
+  color: #4F3B38;
 }
 
 /*.container {
@@ -344,13 +355,47 @@ to{
 
 /* --/ARROW SVG-- */
 
-.logoholder {
+.logoholder, .logoholderstore {
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
   margin: auto;
+}
+
+.logoholderstore {
+  width: 8vw;
+}
+
+.ul_storecats {
+  margin: 0;
+  padding: 0;
+  width: 40vw;
+  height: inherit;
+  color: #07284C;
+  font-weight: 600;
+  font-size: 2.2vh;
+  font-family: var(--sans);
+  list-style: none;
+  display: inline;
+  text-transform: uppercase;
+}
+
+.li_storecatsL, .li_storecatsR, .li_storecatseL, .li_storecatseR {
+  padding-top: 1.5vh;
+  float: left;
+  padding-left: 1.3vw;
+  padding-right: 1.3vw;
+  justify-content: space-around;
+}
+
+.li_storecatsR, .li_storecatseR  {
+  float: right;
+}
+
+.li_storecatseR{
+  margin-right: 3.5vw;
 }
 
 .logolrg, .logosml {
@@ -383,7 +428,7 @@ to{
 
 .cls-2, .cls-2r, .cls-4, .cls-5 {
   fill: none;
-  stroke:#07284c;
+  stroke: #07284c;
   stroke-miterlimit: 10;
 }
 
