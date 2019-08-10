@@ -206,6 +206,10 @@ h4 {
   background: rgba(240, 227, 193, 0.6);
 }
 
+#lo_stores {
+  background: rgba(240, 227, 193, 0.6);
+}
+
 .landing, .landingabout, .landingwholefoods, .landingcafe, .landingblog, .landingcontact, .landingstorecat {
   height: 86vh;
   background-color: #4F3B38;
@@ -250,8 +254,14 @@ h4 {
 .landingstorecat {
   height: 61vh;
   background-color: #F0E3C1;
-  background-image: url('');
   background-size: cover;
+}
+
+#LSC1 {
+  background-image: url('../css/img/millfruit-4webop.jpg');
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .landingbrk {
@@ -916,7 +926,7 @@ h6 {
   font-weight: 600;
 }
 
-#h6d, #h6f {
+#h6d, #h6f, #h6g {
   font-size: 2.6vh;
   padding-left: 10vw;
   color: #F0E3C1;
@@ -930,6 +940,21 @@ h6 {
 
 #h6f {
   color: #4F3B38;
+}
+
+#h6g {
+  color: #07284C;
+  padding-top: 1.7vh;
+  padding-left: 2vw;
+}
+
+#h6h {
+  color: #7879A1;
+  font-size: 2.4vh;
+  font-weight: 500;
+  padding-top: 1.3vh;
+  padding-left: 2vw;
+  text-transform: capitalize;
 }
 
 p {
@@ -1117,7 +1142,7 @@ ul, .ulsml, .menu, .menui, .menuprice {
 }
 
 #psec_products {
-  height: 195vh;
+  height: 175vh;
   background-color: #E7EBE3;
 }
 
@@ -1310,6 +1335,11 @@ ul, .ulsml, .menu, .menui, .menuprice {
   margin-top: 2.5vh;
   margin-left: 3vw;
   border-radius: 1vh;
+  transition: 500ms;
+}
+
+.producttile:hover {
+  background-color: #E0D5BF;
 }
 
 #pt1 {
@@ -1330,19 +1360,41 @@ ul, .ulsml, .menu, .menui, .menuprice {
 }
 
 #imgprod1 {
-  background-image: url('../css/img/millfruit-2.jpg');
+  background-image: url('../css/img/millfruit-2webop.jpg');
 }
 
 #imgprod2 {
-  background-image: url('../css/img/millfruit-4.jpg');
+  background-image: url('../css/img/millfruit-4webop.jpg');
 }
 
 #imgprod3 {
-  background-image: url('../css/img/millfruit-5.jpg');
+  background-image: url('../css/img/millfruit-5webop.jpg');
 }
 
 #imgprod4 {
-  background-image: url('../css/img/millfruit-7.jpg');
+  background-image: url('../css/img/millfruit-7webop.jpg');
+}
+
+#imgprod5 {
+  background-image: url('../css/img/milldriedbananawebop.jpg');
+}
+
+#imgprod6 {
+  background-image: url('../css/img/millfruit-8webop.jpg');
+  background-size: 210%;
+  background-position: center;
+}
+
+#imgprod7 {
+  background-image: url('../css/img/millfruit-10webop.jpg');
+}
+
+#imgprod8 {
+  background-image: url('../css/img/millfruit-9webop.jpg');
+}
+
+#imgprod9 {
+  background-image: url('../css/img/millfruit-11webop.jpg');
 }
 
 /* .side_arrow {
