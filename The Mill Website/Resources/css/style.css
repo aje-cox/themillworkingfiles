@@ -279,6 +279,13 @@ h4 {
   background-repeat: no-repeat;
 }
 
+#LSC2 {
+  background-image: url('../css/img/mill-muesliwebop.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
 .landingbrk {
   background-color: #E7EBE3;
   width: 100%;
@@ -1446,6 +1453,31 @@ ul, .ulsml, .menu, .menui, .menuprice {
   background-image: url('../css/img/millfruit-11webop.jpg');
 }
 
+#imgprod10 {
+  background-image: url('../css/img/mill-muesliwebop.jpg');
+}
+
+#imgprod11 {
+  background-image: url('../css/img/mill-muesli2webop.jpg');
+}
+
+#imgprod12 {
+  background-image: url('../css/img/millwholeflourwebop.jpg');
+}
+
+
+#imgprod13 {
+  background-image: url('../css/img/millspeltflourwebop.jpg');
+}
+
+#imgprod14 {
+  background-image: url('../css/img/millselfflourwebop.jpg');
+}
+
+#imgprod15 {
+  background-image: url('../css/img/millbakersflourwebop.jpg');
+  background-position: right;
+}
 /* .side_arrow {
   width: 2vw;
   color; #07284C;
