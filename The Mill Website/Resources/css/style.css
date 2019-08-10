@@ -1269,7 +1269,7 @@ ul, .ulsml, .menu, .menui, .menuprice {
 }
 
 .p_storerow {
-  height: 45vh;
+  height: 55vh;
   background-color: #E7EBE3;
 }
 
@@ -1303,7 +1303,7 @@ ul, .ulsml, .menu, .menui, .menuprice {
 }
 
 .producttile {
-  height: 40vh;
+  height: 50vh;
   width: 22vw;
   background-color: #F0E3C1;
   float: left;
@@ -1314,7 +1314,35 @@ ul, .ulsml, .menu, .menui, .menuprice {
 
 #pt1 {
   margin-left: 13.5vw;
+}
 
+.imgholdproduct {
+  background-color: #07284C;
+  height: 35vh;
+  width: 18vw;
+  margin-top: 4vh;
+  margin-left: 2vw;
+  margin-left: 2vw;
+  border-radius: 1vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#imgprod1 {
+  background-image: url('../css/img/millfruit-2.jpg');
+}
+
+#imgprod2 {
+  background-image: url('../css/img/millfruit-4.jpg');
+}
+
+#imgprod3 {
+  background-image: url('../css/img/millfruit-5.jpg');
+}
+
+#imgprod4 {
+  background-image: url('../css/img/millfruit-7.jpg');
 }
 
 /* .side_arrow {
