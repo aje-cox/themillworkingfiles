@@ -1774,9 +1774,10 @@ ul, .ulsml, .menu, .menui, .menuprice {
   background-size: 155%;
   overflow: hidden;
   z-index: 1;
-  background-position: center;
-  transition: background-size 1s;
-  -webkit-transition: background-size 1s;
+  background-position: top;
+  background-repeat: no-repeat;
+  transition: background-size 1.2s;
+  -webkit-transition: background-size 1.2s;
 }
 
 .storecat_holder {
@@ -1785,31 +1786,74 @@ ul, .ulsml, .menu, .menui, .menuprice {
   height: 40vh;
   float: left;
   padding: 15px;
+  overflow: hidden;
   /* border: 1px solid red; */
+  transition: background 1.2s;
 }
 
 #stcga {
+  background-image: url('../css/img/mill-muesli2webop.jpg');
+  background-size: 155%;
+  background-position: center;
+}
 
+#stcga:hover {
+  background-size: 120%;
 }
 
 #stcgb {
-background-color: #7879A1;
+  background-color: #7879A1;
+  background-image: url('../css/img/millfruit-4webop.jpg');
+  background-size: 155%;
+  background-position: center;
+}
+
+#stcgb:hover {
+  background-size: 120%;
 }
 
 #stcgc {
-background-color: #7879A1;
+  background-color: #7879A1;
+  background-image: url('../css/img/millherbs1webop.jpg');
+  background-size: 155%;
+  background-position: top left;
+}
+
+#stcgc:hover {
+  background-size: 125%;
+  background-position: top left;
 }
 
 #stcgd {
+  background-image: url('../css/img/millnuts4webop.jpg');
+  background-size: 155%;
+  background-position: right;
+}
 
+#stcgd:hover {
+  background-size: 125%;
+  background-position: right;
 }
 
 #stcge {
+  background-image: url('../css/img/milltea5webop.jpg');
+  background-size: 155%;
+  background-position: center;
+}
 
+#stcge:hover {
+  background-size: 120%;
 }
 
 #stcgf {
-background-color: #7879A1;
+  background-color: #7879A1;
+  background-image: url('../css/img/millother1webop.jpg');
+  background-size: 155%;
+  background-position: center;
+}
+
+#stcgf:hover {
+  background-size: 120%;
 }
 
 .parallaxdiv {
@@ -1859,6 +1903,7 @@ background-color: #7879A1;
 
 .tostores_wholefoods:hover {
   background-size: 180%;
+  background-position: top;
 }
 
 .boxoverlay1:hover {
@@ -1890,13 +1935,15 @@ background-color: #7879A1;
   z-index: 2;
   background-image: url('../css/img/millcoffee2webop.jpg');
   background-size: 155%;
-  background-position: center;
-  transition: background-size 1s;
-  -webkit-transition: background-size 1s;
+  background-position: top;
+  background-repeat: no-repeat;
+  transition: background-size 1.2s;
+  -webkit-transition: background-size 1.2s;
 }
 
 .tostores_cafe:hover {
   background-size: 180%;
+  background-position: top;
 }
 
 hr {
