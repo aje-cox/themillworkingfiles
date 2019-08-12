@@ -56,7 +56,7 @@ a {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 18;
+  z-index: 3300;
   left: 0;
   top: 0;
   background-color: rgba(48, 36, 34, 0.9);
@@ -69,7 +69,7 @@ a {
   left: 20px;
   top: 14px;
   cursor: pointer;
-  z-index: 17;
+  z-index: 3200;
   font-size: 30px;
   font-weight: bold;
   color; #07284C;
@@ -140,7 +140,7 @@ h1 {
   text-transform: uppercase;
   padding: 1.9vh;
   margin: 0px;
-  z-index: 8;
+  z-index: 2300;
   position: inherit;
 }
 
@@ -177,7 +177,7 @@ h4 {
   font-family: var(--sans);
   text-align: center;
   text-transform: uppercase;
-  z-index: 9;
+  z-index: 2400;
   position: inherit;
 }
 
@@ -202,7 +202,7 @@ h4 {
   min-width: 100%;
   min-height: 100%;
   background: rgba(240, 227, 193, 0.6);
-  z-index: 7;
+  z-index: 2200;
 }
 
 #lo_about {
@@ -321,7 +321,7 @@ h4 {
 }
 
 .vid_overlay {
-  z-index: 11;
+  z-index: 2600;
   background: rgba(49, 36, 34, 0.85);
   position: absolute;
   top: 50%;
@@ -336,7 +336,7 @@ video {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 10;
+  z-index: 2500;
   min-width: 100%;
   min-height: 100%;
   width: auto;
@@ -457,7 +457,7 @@ to{
   margin: auto;
   transform-origin: 50% 50%;
   transform: scale(.2);
-  z-index: 16;
+  z-index: 3100;
 }
 
 .cls-1 {
@@ -625,7 +625,7 @@ text {
   border-radius: 50% 50%;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.9);
   animation: 5s shadow ease-out;
-  z-index: 15;
+  z-index: 3000;
 }
 
 @keyframes shadow {
@@ -921,20 +921,26 @@ h2 {
 }
 
 #h2c {
+  position: relative;
   font-size: 10vh;
   padding-top: 6vh;
+  z-index: 1300;
 }
 
 #h2d {
   color: #4F3B38;
   padding-top: 1vh;
   font-size: 10vh;
+  z-index: 1400;
+  position: relative;
 }
 
 #h2e {
   color: #4F3B38;
   padding-top: 10vh;
   font-size: 10vh;
+  z-index: 1500;
+  position: relative;
 }
 
 h3 {
@@ -1773,11 +1779,12 @@ ul, .ulsml, .menu, .menui, .menuprice {
   background-image: url('../css/img/mill-muesliwebop.jpg');
   background-size: 155%;
   overflow: hidden;
-  z-index: 1;
+  z-index: 1600;
   background-position: top;
   background-repeat: no-repeat;
   transition: background-size 1.2s;
   -webkit-transition: background-size 1.2s;
+  position: relative;
 }
 
 .storecat_holder {
@@ -1795,10 +1802,20 @@ ul, .ulsml, .menu, .menui, .menuprice {
   background-image: url('../css/img/mill-muesli2webop.jpg');
   background-size: 155%;
   background-position: center;
+  z-index: 100;
+  position: relative;
 }
 
 #stcga:hover {
   background-size: 120%;
+}
+
+.stcga_over {
+  z-index: 700;
+  background: rgba(240, 227, 193, 0.6);
+  position: relative;
+  width: 50%;
+  height: 40vh;
 }
 
 #stcgb {
@@ -1806,10 +1823,19 @@ ul, .ulsml, .menu, .menui, .menuprice {
   background-image: url('../css/img/millfruit-4webop.jpg');
   background-size: 155%;
   background-position: center;
+  z-index: 200;
+  position: relative;
 }
 
 #stcgb:hover {
   background-size: 120%;
+}
+
+.stcgb_over {
+  z-index: 800;
+  position: relative;
+  width: 50%;
+  height: 40vh;
 }
 
 #stcgc {
@@ -1817,6 +1843,8 @@ ul, .ulsml, .menu, .menui, .menuprice {
   background-image: url('../css/img/millherbs1webop.jpg');
   background-size: 155%;
   background-position: top left;
+  z-index: 300;
+  position: relative;
 }
 
 #stcgc:hover {
@@ -1824,10 +1852,19 @@ ul, .ulsml, .menu, .menui, .menuprice {
   background-position: top left;
 }
 
+.stcgc_over {
+  z-index: 900;
+  position: relative;
+  width: 50%;
+  height: 40vh;
+}
+
 #stcgd {
   background-image: url('../css/img/millnuts4webop.jpg');
   background-size: 155%;
   background-position: right;
+  z-index: 400;
+  position: relative;
 }
 
 #stcgd:hover {
@@ -1835,14 +1872,32 @@ ul, .ulsml, .menu, .menui, .menuprice {
   background-position: right;
 }
 
+.stcgd_over {
+  z-index: 1000;
+  background: rgba(240, 227, 193, 0.6);
+  position: relative;
+  width: 50%;
+  height: 40vh;
+}
+
 #stcge {
   background-image: url('../css/img/milltea5webop.jpg');
   background-size: 155%;
   background-position: center;
+  z-index: 500;
+  position: relative;
 }
 
 #stcge:hover {
   background-size: 120%;
+}
+
+.stcge_over {
+  position: relative;
+  z-index: 1100;
+  background: rgba(240, 227, 193, 0.6);
+  width: 50%;
+  height: 40vh;
 }
 
 #stcgf {
@@ -1850,10 +1905,20 @@ ul, .ulsml, .menu, .menui, .menuprice {
   background-image: url('../css/img/millother1webop.jpg');
   background-size: 155%;
   background-position: center;
+  z-index: 600;
+  position: relative;
 }
 
 #stcgf:hover {
   background-size: 120%;
+}
+
+.stcgf_over {
+  position: relative;
+  z-index: 1200;
+  position: relative;
+  width: 50%;
+  height: 40vh;
 }
 
 .parallaxdiv {
@@ -1873,7 +1938,7 @@ ul, .ulsml, .menu, .menui, .menuprice {
   top: -22vw;
   left: -15px;
   background: rgba(240, 227, 193, 0.65);
-  z-index: 3;
+  z-index: 1800;
   transition: background 1s;
   -webkit-transition: background 1s;
 }
@@ -1885,7 +1950,7 @@ ul, .ulsml, .menu, .menui, .menuprice {
   top: -22vw;
   left: -15px;
   background: rgba(48, 36, 34, 0.8);
-  z-index: 4;
+  z-index: 1900;
   transition: background 1s;
   -webkit-transition: background 1s;
 }
@@ -1898,7 +1963,7 @@ ul, .ulsml, .menu, .menui, .menuprice {
   /* right: 10vw; */
   width: 30vw;
   height: 20vw;
-  z-index: 5;
+  z-index: 2000;
 }
 
 .tostores_wholefoods:hover {
@@ -1922,7 +1987,7 @@ ul, .ulsml, .menu, .menui, .menuprice {
   /* right: 10vw; */
   width: 30vw;
   height: 20vw;
-  z-index: 6;
+  z-index: 2100;
 }
 
 .tostores_cafe {
@@ -1932,7 +1997,8 @@ ul, .ulsml, .menu, .menui, .menuprice {
   float: left;
   padding: 15px;
   overflow: hidden;
-  z-index: 2;
+  z-index: 1700;
+  position: relative;
   background-image: url('../css/img/millcoffee2webop.jpg');
   background-size: 155%;
   background-position: top;
@@ -2126,7 +2192,7 @@ button[name="submit"] {
   color: #07284C;
   padding: 3vh 5vw 3vh 2.25vw;
   overflow: hidden;
-  z-index: 12;
+  z-index: 2700;
   border-radius: .5vw;
 }
 
@@ -2140,7 +2206,7 @@ button[name="submit"]:before {
   line-height: 1.85;
   font-size: 140%;
   width: 4vw;
-  z-index: 14;
+  z-index: 2900;
   font-family: "icomoon";
   speak: none;
   font-size: 4.5vh;
@@ -2156,7 +2222,7 @@ button[name="submit"]:after {
   width: 37%;
   height: 200%;
   background: rgba(112,150,179,0.2);
-  z-index: 13;
+  z-index: 2800;
   right: 0;
   top: 0;
   margin: -5px 0 0 -5px;
