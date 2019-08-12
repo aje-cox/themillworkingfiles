@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="Vendors\css\normalize.css">
+    <link rel="stylesheet" type="text/css" href="Resources\css\style.css">
+    <title>The Mill Wholefoods & Cafe | Home</title>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <!--<div class="container">-->
+      <div class="header-bar">
+        <!---NAVIGATION----->
+        <div id="Nav" class="overlay">
+          <!--Close Btn-->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <!--Overlay Content-->
+          <div class="overlay-content">
+            <a class="current" href="..\The Mill Website\index.html">Home</a>
+            <a href="..\The Mill Website\about.html">Our Vision</a>
+            <a href="..\The Mill Website\wholefoods.html">Wholefoods Store</a>
+            <a href="..\The Mill Website\cafe.html">Cafe Menu</a>
+            <a href="..\The Mill Website\blog.html">Healthy Blog</a>
+            <a href="..\The Mill Website\contact.html">Contact Us</a>
+          </div>
+        </div>
+        <!--Open Nav Element-->
+        <span class="opennav" onclick="openNav()">&#9776;</span>
+        <!---/NAVIGATION----->
+        <div class="header-title">
+          <h1>The Mill Wholefoods & Caf&#201;</h1>
+        </div>
+      </div>
+      <div class="landing">
+        <br>
+        <div class="logoholder">
+          <img class="logolrg" height="450px" src="Resources\img\The Mill Lrg Logo CrBg.png" alt="The Mill Wholefoods & Cafe Logo"></img>
+        </div>
+      </div>
+      <div class="landingbrk">
+        <a class="content_btn" href="#content"><img class="down_arrow" src="Resources\img\arrow-down-sign-to-navigate.svg" alt="View Content"></a>
+      </div>
+      <a id="content">
+      <!-- About Us psection -->
+      <div class="psection">
+        <div class="p_title">
+          <h2>Who We Are</h2>
+        </div>
+        <div class="p_info">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis lectus vel metus luctus consequat quis a libero. Morbi maximus volutpat arcu, vel vulputate leo vehicula eget. Nunc nibh leo, vulputate at enim hendrerit, cursus venenatis arcu. Cras fermentum id leo ornare facilisis. Vestibulum gravida aliquam tempus. Praesent rhoncus, urna ac efficitur sagittis, tortor elit vulputate tortor, in varius neque metus sed magna. Nam auctor euismod risus, nec aliquam neque semper eu. Ut imperdiet ipsum eu est pellentesque, vitae placerat metus tempus. Ut cursus, purus in lobortis ultrices, dui libero finibus ante, vitae pretium orci dolor ac erat.
+          </p>
+        </div>
+        <div class="p_btn">
+          <a href="..\The Mill Website\about.html"><img class="side_arrow" src="Resources\img\arrow-down-sign-to-navigate.svg" alt="To About Page"></a>
+        </div>
+      </div>
+    </a>
+      <div class="tostores">
+        <div class="tostores_wholefoods">
+          <div class="tostores_wfbox">
+            <h2 id="h2a">Whole foods</h2>
+          </div>
+        </div>
+        <div class="tostores_cafe">
+          <div class="tostores_cfbox">
+            <h2 id="h2b">Caf&#201;</h2>
+          </div>
+        </div>
+
+      </div>
+      <!-- Live Better psection -->
+      <div id="psect_live_better" class="psection">
+        <div id="psect_live_better" class="p_title">
+          <h3>Live Better</h3>
+        </div>
+        <div id="psect_live_better" class="p_info">
+          <p id="pa">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis lectus vel metus luctus consequat quis a libero. Morbi maximus volutpat arcu, vel vulputate leo vehicula eget. Nunc nibh leo, vulputate at enim hendrerit, cursus venenatis arcu. Cras fermentum id leo ornare facilisis. Vestibulum gravida aliquam tempus. Praesent rhoncus, urna ac efficitur sagittis, tortor elit vulputate tortor, in varius neque metus sed magna. Nam auctor euismod risus, nec aliquam neque semper eu. Ut imperdiet ipsum eu est pellentesque, vitae placerat metus tempus. Ut cursus, purus in lobortis ultrices, dui libero finibus ante, vitae pretium orci dolor ac erat.
+          </p>
+        </div>
+        <div id="psect_live_better" class="p_btn">
+          <a href="..\The Mill Website\blog.html"><img id="plive_better_sarrow" class="side_arrow" src="Resources\img\arrow-down-sign-to-navigate.svg" alt="To Healthy Blog"></a>
+        </div>
+      </div>
+
+      <div class="footer">
+        <!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+      </div>
+    <!--</div>-->
+    <script type="text/javascript" src="Resources\js\Mill.js"></script>
+  </body>
+</html>
