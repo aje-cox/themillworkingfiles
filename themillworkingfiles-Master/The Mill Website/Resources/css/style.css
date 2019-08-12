@@ -1225,8 +1225,18 @@ ul, .ulsml, .menu, .menui, .menuprice {
   height: 25vh;
 }
 
-#psec_products {
+#psec_products6 {
+  height: 120vh;
+  background-color: #E7EBE3;
+}
+
+#psec_products9 {
   height: 175vh;
+  background-color: #E7EBE3;
+}
+
+#psec_products12 {
+  height: 230vh;
   background-color: #E7EBE3;
 }
 
