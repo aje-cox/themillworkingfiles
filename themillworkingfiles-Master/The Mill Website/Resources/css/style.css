@@ -286,6 +286,27 @@ h4 {
   background-repeat: no-repeat;
 }
 
+#LSC3 {
+  background-image: url('../css/img/milltea3webop.jpg');
+  background-position: right;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#LSC4 {
+  background-image: url('../css/img/millnuts6webop.jpg');
+  background-position: right;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#LSC5 {
+  background-image: url('../css/img/millherbs1webop.jpg');
+  background-position: right;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
 .landingbrk {
   background-color: #E7EBE3;
   width: 100%;
@@ -1453,6 +1474,7 @@ ul, .ulsml, .menu, .menui, .menuprice {
   background-image: url('../css/img/millfruit-11webop.jpg');
 }
 
+
 #imgprod10 {
   background-image: url('../css/img/mill-muesliwebop.jpg');
 }
@@ -1464,7 +1486,6 @@ ul, .ulsml, .menu, .menui, .menuprice {
 #imgprod12 {
   background-image: url('../css/img/millwholeflourwebop.jpg');
 }
-
 
 #imgprod13 {
   background-image: url('../css/img/millspeltflourwebop.jpg');
@@ -1478,6 +1499,69 @@ ul, .ulsml, .menu, .menui, .menuprice {
   background-image: url('../css/img/millbakersflourwebop.jpg');
   background-position: right;
 }
+
+
+#imgprod16 {
+  background-image: url('../css/img/milltea1webop.jpg');
+  background-position: center;
+}
+
+#imgprod17 {
+  background-image: url('../css/img/milltea2webop.jpg');
+  background-position: center;
+}
+
+#imgprod18 {
+  background-image: url('../css/img/milltea3webop.jpg');
+  background-position: center;
+}
+
+#imgprod19 {
+  background-image: url('../css/img/milltea4webop.jpg');
+  background-position: center;
+}
+
+#imgprod20 {
+  background-image: url('../css/img/milltea5webop.jpg');
+  background-position: right;
+}
+
+#imgprod21 {
+  background-image: url('../css/img/milltea7webop.jpg');
+  background-position: center;
+}
+
+
+#imgprod22 {
+  background-image: url('../css/img/millnuts4webop.jpg');
+  background-position: center;
+}
+
+#imgprod23 {
+  background-image: url('../css/img/millnuts2webop.jpg');
+  background-position: center;
+}
+
+#imgprod24 {
+  background-image: url('../css/img/millnuts5webop.jpg');
+  background-position: center;
+}
+
+#imgprod25 {
+  background-image: url('../css/img/millnuts1webop.jpg');
+  background-position: center;
+}
+
+#imgprod26 {
+  background-image: url('../css/img/millnuts3webop.jpg');
+  background-position: right;
+}
+
+#imgprod27 {
+  background-image: url('../css/img/millnuts6webop.jpg');
+  background-position: center;
+}
+
 /* .side_arrow {
   width: 2vw;
   color; #07284C;
