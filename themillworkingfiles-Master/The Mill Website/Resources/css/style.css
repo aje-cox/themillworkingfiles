@@ -1207,7 +1207,7 @@ ul, .ulsml, .menu, .menui, .menuprice {
 }
 
 #psec_blog {
- height: 185vh;
+ height: 190vh;
  background-color: #E7EBE3;
 }
 
@@ -1327,11 +1327,11 @@ ul, .ulsml, .menu, .menui, .menuprice {
 }
 
 #psect_live_better {
-  height: 40vh;
+  height: 45vh;
 }
 
 .p_imgdis {
-  height: 50vh;
+  height: 42vh;
   width: 100%;
   background-color: #E7EBE3;
 }
@@ -1399,7 +1399,7 @@ ul, .ulsml, .menu, .menui, .menuprice {
   background-color: #4F3B38;
   /* padding: 15px; */
   float: left;
-  margin-top: 14vh;
+  margin-top: 10vh;
   margin-left: 1vw;
   margin-right: 1vw;
 }
@@ -1414,6 +1414,7 @@ ul, .ulsml, .menu, .menui, .menuprice {
   background-color: #F0E3C1;
   margin-left: 3vw;
   margin-bottom: 4vh;
+  margin-top: 14vh;
 }
 
 #imgholdblog {
@@ -1680,10 +1681,11 @@ ul, .ulsml, .menu, .menui, .menuprice {
 
 .about_profiles_sml {
   background-color: #E7EBE3;
+  height: 72vh;
 }
 
 .profile_sml1, .profile_sml2 {
-  height: 85vh;
+  height: 70vh;
   width: 50%;
   float: left;
   padding: 15px;
@@ -1759,7 +1761,7 @@ ul, .ulsml, .menu, .menui, .menuprice {
 .store_cats {
   background-color: #E7EBE3;
   width: 100%;
-  height: 125vh;
+  height: 120vh;
 }
 
 .tostores_wholefoods {
@@ -2136,10 +2138,20 @@ button[name="submit"]:active {
 button[name="submit"]:active:after {
   background: rgba(231,235,227,0.1);
 }
-.footer {
+
+.footer, .footer0, .footer0c {
   position: relative;
+  background-color: #07284C;
   bottom: 0;
   height: 50vh;
   width: 100%;
   margin-top: 1rem;
+}
+
+.footer0, .footer0c {
+  margin-top: 0;
+}
+
+.footer0c {
+  background-color: #c9d0d1;
 }
