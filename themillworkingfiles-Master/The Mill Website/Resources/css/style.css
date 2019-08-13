@@ -1049,7 +1049,7 @@ h6 {
 }
 
 p {
-  padding-top: 9vh;
+  padding-top: 5vh;
   padding-left: 7%;
   padding-right: 5%;
   line-height: 1.6;
@@ -1067,9 +1067,9 @@ p {
 
 #pb {
   text-align: center;
-  padding-top: 13vh;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-top: 10vh;
+  padding-left: 9.5%;
+  padding-right: 9.5%;
 }
 
 #pc {
@@ -1088,7 +1088,7 @@ p {
   line-height: 1.9;
   font-family: var(--serif);
   font-style: italic;
-  font-size: 2.2vh;
+  font-size: 2.5vh;
 }
 
 #pe {
@@ -1688,11 +1688,11 @@ ul, .ulsml, .menu, .menui, .menuprice {
 
 .about_profiles_sml {
   background-color: #E7EBE3;
-  height: 72vh;
+  height: 82vh;
 }
 
 .profile_sml1, .profile_sml2 {
-  height: 70vh;
+  height: 80vh;
   width: 50%;
   float: left;
   padding: 15px;
