@@ -199,8 +199,8 @@ h4 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  min-width: 100%;
-  min-height: 100%;
+  min-width: 101%;
+  min-height: 101%;
   background: rgba(240, 227, 193, 0.6);
   z-index: 2200;
 }
@@ -1814,8 +1814,11 @@ ul, .ulsml, .menu, .menui, .menuprice {
   z-index: 700;
   background: rgba(240, 227, 193, 0.6);
   position: relative;
-  width: 50%;
-  height: 40vh;
+  width: 50vw;
+  height: 42vh;
+  top: -40vh;
+  left: -15px;
+  transition: background 1s;
 }
 
 #stcgb {
@@ -1833,9 +1836,13 @@ ul, .ulsml, .menu, .menui, .menuprice {
 
 .stcgb_over {
   z-index: 800;
+  background: rgba(174, 176, 230, 0.6);
   position: relative;
-  width: 50%;
-  height: 40vh;
+  width: 50vw;
+  height: 42vh;
+  top: -34vh;
+  left: -15px;
+  transition: background 1s;
 }
 
 #stcgc {
@@ -1854,9 +1861,13 @@ ul, .ulsml, .menu, .menui, .menuprice {
 
 .stcgc_over {
   z-index: 900;
+  background: rgba(174, 176, 230, 0.6);
   position: relative;
-  width: 50%;
-  height: 40vh;
+  width: 50vw;
+  height: 42vh;
+  top: -34vh;
+  left: -15px;
+  transition: background 1s;
 }
 
 #stcgd {
@@ -1874,10 +1885,13 @@ ul, .ulsml, .menu, .menui, .menuprice {
 
 .stcgd_over {
   z-index: 1000;
-  background: rgba(240, 227, 193, 0.6);
+  background: rgba(240, 227, 193, 0.5);
   position: relative;
-  width: 50%;
-  height: 40vh;
+  width: 50vw;
+  height: 42vh;
+  top: -26vh;
+  left: -15px;
+  transition: background 1s;
 }
 
 #stcge {
@@ -1893,11 +1907,14 @@ ul, .ulsml, .menu, .menui, .menuprice {
 }
 
 .stcge_over {
-  position: relative;
   z-index: 1100;
   background: rgba(240, 227, 193, 0.6);
-  width: 50%;
-  height: 40vh;
+  position: relative;
+  width: 50vw;
+  height: 42vh;
+  top: -26vh;
+  left: -15px;
+  transition: background 1s;
 }
 
 #stcgf {
@@ -1914,11 +1931,30 @@ ul, .ulsml, .menu, .menui, .menuprice {
 }
 
 .stcgf_over {
-  position: relative;
   z-index: 1200;
+  background: rgba(174, 176, 230, 0.6);
   position: relative;
-  width: 50%;
-  height: 40vh;
+  width: 50vw;
+  height: 42vh;
+  top: -34vh;
+  left: -15px;
+  transition: background 1s;
+}
+
+.stcga_over:hover, .stcgd_over:hover, .stcge_over:hover {
+  background: rgba(240, 227, 193, 0.9);
+}
+
+#h2d:hover ~ .stcga_over, #h2e:hover ~ .stcgd_over, #h2e:hover ~ .stcge_over {
+  background: rgba(240, 227, 193, 0.9);
+}
+
+.stcgb_over:hover, .stcgc_over:hover, .stcgf_over:hover {
+  background: rgba(174, 176, 230, 0.9);
+}
+
+#h2c:hover ~ .stcgb_over, #h2c:hover ~ .stcgc_over, #h2c:hover ~ .stcgf_over {
+  background: rgba(174, 176, 230, 0.9);
 }
 
 .parallaxdiv {
