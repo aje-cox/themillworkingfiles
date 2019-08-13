@@ -218,7 +218,7 @@ h4 {
 }
 
 #lo_contact {
-  background: rgba(240, 227, 193, 0.6);
+  background: rgba(240, 227, 193, 0.7);
 }
 
 #lo_stores {
@@ -262,8 +262,9 @@ h4 {
 
 .landingcontact {
   background-color: #F0E3C1;
-  background-image: url('');
+  background-image: url('../css/img/millcontactlandingwebop.jpg');
   background-size: cover;
+  background-position: center;
 }
 
 .landingstorecat {
@@ -2164,6 +2165,7 @@ input[name="email"] {
 }
 
 .cont_radio .radiobtn::after {
+  top: 0;
   margin: .75vh;
   width: 1vh;
   height: 1vh;
@@ -2175,7 +2177,7 @@ input[name="business"] {
   display: none;
   border: none;
   border-bottom: 4px solid #E7EBE3;
-  width: 31.65vw;
+  width: 30.85vw;
   padding: 12px 20px;
   /* margin-bottom: 4vh; */
   background-color: #07284C;
